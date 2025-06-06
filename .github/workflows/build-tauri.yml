@@ -32,7 +32,7 @@ jobs:
           npm run tauri build
 
       - name: Upload EXE
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Tauri-Windows-Exe
           path: src-tauri/target/release/*.exe
